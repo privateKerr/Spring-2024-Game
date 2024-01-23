@@ -1,3 +1,6 @@
 [submodule "Matching Game!/Assets/Tools"]
 	path = Matching Game!/Assets/Tools
 	url = git@github.com:privateKerr/ArtisanDream.Tools.git
+[submodule "Matching Game!/Assets/Unity Scripts"]
+	path = Matching Game!/Assets/Unity Scripts
+	url = git@github.com:privateKerr/Unity-Scripts.git
