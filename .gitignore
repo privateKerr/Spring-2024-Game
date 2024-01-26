@@ -37,3 +37,9 @@ sysinfo.txt
 
 *.DS_Store
 Matching Game!/.idea/.idea.Matching Game!/.idea/
+
+Matching Game!/Logs/
+
+Matching Game!/UserSettings/Layouts/
+
+*.json
