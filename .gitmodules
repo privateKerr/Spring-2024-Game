@@ -4,3 +4,6 @@
 [submodule "Matching Game!/Assets/Unity Scripts"]
 	path = Matching Game!/Assets/Unity Scripts
 	url = git@github.com:privateKerr/Unity-Scripts.git
+[submodule "Matching Game Spring-23/Assets/Tools"]
+	path = Matching Game Spring-23/Assets/Tools
+	url = git@github.com:privateKerr/Unity-Scripts.git
