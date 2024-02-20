@@ -276,32 +276,56 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
-      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
-      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 11400000, guid: 377db76b7db837e4bbe1de2caf312451, type: 2}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: f2c20decbae8f8c409a1044f91646e94, type: 2}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
-      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetCurrentColorRandomly
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
-      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: CreateInstanceFromListRandomly
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ColorIDListData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Instancer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
       value: 
+      objectReference: {fileID: 11400000, guid: 3e466da6f9b84ee44b99955015e4f698, type: 2}
+    - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
+      propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8499783230985225318, guid: 577b27acac0835047a9542ca01ce443c, type: 3}
       propertyPath: repeatUntilFalseEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      value: Vector3DataList, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
