@@ -2030,6 +2030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteData: {fileID: 11400000, guid: 4129a13e0ff62c84dafd6c2f705a8815, type: 2}
+  i: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
