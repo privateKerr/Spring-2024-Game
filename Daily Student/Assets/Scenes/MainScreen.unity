@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5709585
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,7 +1066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &384541121
 Transform:
   m_ObjectHideFlags: 0
@@ -1350,7 +1350,7 @@ GameObject:
   - component: {fileID: 450327016}
   - component: {fileID: 450327015}
   m_Layer: 0
-  m_Name: Button
+  m_Name: ChallengeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1444,6 +1444,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 500992128}
+        m_TargetAssemblyTypeName: CoroutineBehaviour, Assembly-CSharp
+        m_MethodName: StartCounting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &450327016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1482,6 +1494,92 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450327013}
   m_CullTransparentMesh: 1
+--- !u!1 &500992127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500992129}
+  - component: {fileID: 500992128}
+  m_Layer: 0
+  m_Name: CoroutineDailyChallengeObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &500992128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500992127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30deb9998c86e243940ce1de77407b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  startCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatCountEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  endCountEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 450327015}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 6b2e9461e591a8e45accbeb9ced3f6bd, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: SetValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  repeatUntilFalseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  canRun: 0
+  counterNum: {fileID: 11400000, guid: 6b2e9461e591a8e45accbeb9ced3f6bd, type: 2}
+  seconds: 1
+--- !u!4 &500992129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500992127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 605.7257, y: 718.8492, z: -48.974075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &504199879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1631,7 +1729,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &508209470
 Transform:
   m_ObjectHideFlags: 0
@@ -4755,7 +4853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1608822790
 Transform:
   m_ObjectHideFlags: 0
@@ -6010,4 +6108,5 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 199628881}
   - {fileID: 516185922}
+  - {fileID: 500992129}
   - {fileID: 729785246}
