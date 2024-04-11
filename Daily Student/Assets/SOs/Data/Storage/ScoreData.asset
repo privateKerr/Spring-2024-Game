@@ -15,5 +15,4 @@ MonoBehaviour:
   data: {fileID: 0}
   listData:
   - {fileID: 11400000, guid: a70779eb0e24b0e418e5aa186db9e712, type: 2}
-  - {fileID: 11400000, guid: 1c0b436536202814d9e7a8f503f55d6e, type: 2}
-  - {fileID: 11400000, guid: ad625c3163df9694c9e52eb2e773fc46, type: 2}
+  - {fileID: 11400000, guid: 4727d43d56207dc48a05eb3582c90445, type: 2}
