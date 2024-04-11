@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc973d37656835e468f8f57a612dd2ca, type: 3}
-  m_Name: ScoreData
+  m_Name: PlayerData
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: a70779eb0e24b0e418e5aa186db9e712, type: 2}
-  listData: []
+  data: {fileID: 0}
+  listData:
+  - {fileID: 11400000, guid: 774e65914784a9d4699e5938cae7594b, type: 2}
+  - {fileID: 11400000, guid: a24488f50c752ae4d975e74bd80ea086, type: 2}
