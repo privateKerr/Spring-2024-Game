@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9d053fdde1e8b4784cac54f8d03b41, type: 3}
   m_Name: UserName
   m_EditorClassIdentifier: 
-  value: Jack
+  value: User
