@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc973d37656835e468f8f57a612dd2ca, type: 3}
-  m_Name: PlayerData
+  m_Script: {fileID: 11500000, guid: 4736f7ab6a3a2134cbc51077239bbf76, type: 3}
+  m_Name: UpdateDailyTasksDone
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
-  listData:
-  - {fileID: 11400000, guid: 774e65914784a9d4699e5938cae7594b, type: 2}
